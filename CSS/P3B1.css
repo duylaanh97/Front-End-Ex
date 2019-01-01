@@ -47,6 +47,18 @@ ul{
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+li:hover{
+	background-color: grey;
+}
+a:hover{
+	color: black;
+}
+.hop{
+    border: inset;
+    position: relative;
+    bottom: 40px;
+}
+
 .item {
     line-height: 42px;
     list-style: none;
@@ -66,8 +78,16 @@ a {
 #left{
 	width: 140px;
 	height: 500px;
-	background-color: green;
+	background-color: white;
 	float: left;
+	min-height: 900px;
+}
+.danhmuc{
+	position: relative;
+    bottom: 40px;
+    /* left: 5px; */
+    text-align: center;
+    color: white;
 }
 #wrapper{
 	width: 800px;
@@ -77,14 +97,16 @@ a {
 #main{
 	width: 500px;
 	height: 500px;
-	background-color: orange;
+	background-color: white;
 	float: left;
+	min-height: 900px;
 }
 #right{
 	width: 160px;
 	height: 500px;
-	background-color: pink;
+	background-color: white;
 	float: left;
+	min-height: 900px;
 }
 #bottom{
 	width: 800px;
@@ -92,8 +114,58 @@ a {
 	height: 50px;
 	background-color: grey;
 }
-
-
+.mauhong{
+	background-color: pink;
+	border-radius:5%;
+}
+.d1t{
+	font-weight: bold;
+    bottom: 33px;
+    position: relative;
+    color: #fff;
+}
+.d2t{
+	position: relative;
+    bottom: 30px;
+}
+.d1p{
+	font-weight: bold;
+	position: relative;
+    text-align: right;
+    bottom: 33px;
+    color: #fff;
+}.d2p{
+	position: relative;
+    bottom: 30px;
+    text-align: right;
+}
+.anht{
+	width: 30%;
+	height: 20%;
+	display: inline;
+    float: left;
+}
+.anhp{
+	width: 30%;
+	height: 20%;
+}
+.chutrai{
+	display: inline;
+}
+.chuphai{
+	float: left;
+    display: inline;
+    width: 70%;
+}
+#bottom{
+	background-color: black;
+	height: 50%;
+}
+.chuduoi{
+	text-align: center;
+	color: orange;
+	font-weight: bold;
+}
 
 
 
