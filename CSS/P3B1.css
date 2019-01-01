@@ -1,0 +1,48 @@
+		.imaHead{
+			height: 500px;
+			width: 800px;
+			margin: auto;
+		}
+		#menu{
+			background: grey;
+			height: 42px;
+			margin: auto;
+			width: 52%;
+		}
+		.item{
+			line-height: 42px;
+			list-style: none;
+			float: left;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.item a {
+			color: orange;
+			text-decoration: none;
+		}
+		.item:hover{
+			background: blue;
+		}
+		.left{
+			height: 500px;
+			width: 140px;
+			background-color: blue;
+			float: left;
+		}
+		#center{
+			width: 800px;
+			height: 500px;
+			margin: auto;
+		}
+		.right{
+			height: 500px;
+			width: 140px;
+			background-color: pink;
+			float: right;
+		}
+		.center{
+			height: 500px;
+			width: 520px;
+			background-color: yellow;
+		}
+		
