@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+x	<!DOCTYPE html>
 <html>
 <head>
 	<title>bai 4</title>
@@ -43,7 +43,7 @@
 		#menu{
 			padding-left: 0;
 			height: 42px;
-			background: green;
+			background: green
 		}
 		.item{
 			float: left;
@@ -51,27 +51,33 @@
 			padding-left: 20px;
 			padding-right:20px;
 			line-height: 42px;
+			position: relative;
 		}
 		.item>a {
 			color: #fff;
-			text-decoration: blue;
+			text-decoration: none
+		}
+		.item:hover{
+			background: #00f;
 		}
 		.item:hover>a{
-			color: red;
+			color: red
 		}
 		.submenu{
 			display: none;
 			padding-left: none;
 			width: 160px;
 			left: 0;
-			background-color: green;
-			position: absolute;
-
+			background: green;
+			position: absolute
+		}
+		.item:hover.submenu{
+			display: block
 		}
 		.item:hover.submenu.item{
 			float: none;
 			padding-left: 10px;
-			padding-right: 0;
+			padding-right: 0
 		}
 	</style>
 </head>
@@ -82,17 +88,20 @@
 	<div class="child"></div>
 	<div class="name"></div>
 	<ul id="menu">
-		<li class="item"><a href="">home</a></li>
-		<li class="item"><a href="">Dương</a>
+		<li class="item">
+			<a href="#">home</a>
+		</li>
+		<li class="item">
+			<a href="#">Dương</a>
 			<ul class="submenu">
 				<li class="item">
-					<a href="">Lava</a>
+					<a href="#">Lava</a>
 				</li>
 				<li class="item">
-					<a href="">php</a>
+					<a href="#">php</a>
 				</li>
 				<li class="item">
-					<a href="">frondend</a>
+					<a href="#">frondend</a>
 				</li>
 			</ul>
 		</li>
