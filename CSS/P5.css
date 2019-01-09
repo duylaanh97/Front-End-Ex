@@ -38,6 +38,9 @@
 		.adv{
 			background-color: #ebebe0;
 		}
+		.imgadv{
+			padding-left: 400px;
+		}
 		.note{
 			color: red;
 		}
@@ -49,6 +52,7 @@
 		.body1{
 			display: inline-block;
 			width: 200px;
+			padding-left: 400px;
 		}
 		.plane{
 			width: 500px;
@@ -58,6 +62,7 @@
 			border: 1px grey solid;
 			width: 700px;
 			float: left;
+			padding-left: 
 		}
 		.spaceS{
 			border-bottom: 1px grey solid;
@@ -72,6 +77,7 @@
 		}
 		.body3{
 			float: left;
+			padding-left: 400px;
 		}
 		.body2in{
 			border-bottom: 1px grey solid;
@@ -97,8 +103,11 @@
 		.textinbd4{
 			display: inline-block;
 		}
+		.body41{
+			display: inline-block;
+		}
 		.body42{
-			display: inline;
+			display: inline-block;
 		}
 		.textinbd5{
 			display: inline-block;
@@ -118,7 +127,7 @@
 		}
 		.bodyR1{
 			background-color: #ebebe0;
-			float: right;
+			display: inline-block;
 		}
 		.textinbdR2{
 			background-color: #ebebe0;
@@ -130,4 +139,34 @@
 		}
 		.tec{
 			
+		}
+		.tieude1{
+			padding-left: 400px;
+		}
+		.body2all{
+			padding-left: 400px;
+		}
+		.tieudenghexem{
+			padding-left: 400px;
+		}
+		.body4{
+			padding-left: 400px;
+		}
+		.tieude3{
+			padding-left: 400px;
+		}
+		.body5{
+			padding-left: 400px;
+		}
+		.body71{
+			display: inline-block;
+		}
+		.body72{
+			display: inline-block;
+		}
+		.body7{
+			padding-left: 400px;
+		}
+		.bodyL{
+			display: inline-block;
 		}
