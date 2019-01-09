@@ -60,9 +60,10 @@
 		}
 		.spaceB{
 			border: 1px grey solid;
-			width: 700px;
-			float: left;
-			padding-left: 
+			width: 900px;
+			float: none;
+			padding-left: 00px;
+
 		}
 		.spaceS{
 			border-bottom: 1px grey solid;
